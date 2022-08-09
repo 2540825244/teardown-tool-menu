@@ -19,4 +19,4 @@ Click the <kbd>q</kbd> key to toggle the tool menu in the upper-left corner.
 
 ## Installation
 
-Copy the `Tool Menu` folder and all of its contents into your mods folder. The mod folder is usually located in your documents folder under `Teardown/Mods/`.
+Copy the `Tool Menu Fav Fixed` folder and all of its contents into your mods folder. The mod folder is usually located in your documents folder under `Teardown/Mods/`.
