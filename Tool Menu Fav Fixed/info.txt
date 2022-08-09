@@ -1,4 +1,4 @@
-name = Tool Menu
+name = Tool Menu Fav Fixed
 author = mjtlittle
 description = Easily switch tools with the 'q' key.
 tags = Tool, Gameplay
