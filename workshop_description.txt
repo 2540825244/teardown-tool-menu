@@ -16,8 +16,4 @@ Recent Changes:
 - Changed order function to be by_id to (hopefully) mitigate the problem of invalid order function
 - Fixed (hopefully) favorite functionality by using tool id to see if a tool is favorited
 
-Planned Changes:
-- Full key remapping
-- Scrolling sensitivity
-
 Drop a comment below if you encounter problems. Be sure to include the gamemode/map and tools installed at the time.
