@@ -9,14 +9,12 @@ Features Include:
 
 This project is open source on github:
 https://github.com/2540825244/teardown-tool-menu
+Original mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2418422455
 
 Recent Changes:
-- Sharantan added the part 2 tools to the basegame category
-- Cyborger added the option to choose either the 'q' (QWERTY) or the 'a' (AZERTY) key
-- The nil comparison problem should be fixed now
-- Favorites should now save for good now
-- Fixed inability to open menu sometimes
-- Added scrolling, for when there is too many tools to show on screen at once
+- Changed order function to be by_id to (hopefully) mitigate the problem of invalid order function
+- Fixed (hopefully) favorite functionality by using tool id to see if a tool is favorited
 
 Planned Changes:
 - Full key remapping
