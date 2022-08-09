@@ -1,8 +1,7 @@
 # Tool Menu for Teardown
 
 A mod for Teardown that lets you easily switch tools
-
-**[Steam Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=2418422455)**
+With fixed favorite functionality
 
 ## Features
 
