@@ -4,6 +4,9 @@ A mod for Teardown that lets you easily switch tools
 With fixed favorite functionality
 Also the invalid order function is mitigated by sorting with tool id
 
+Steam Workshop link:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2847011618
+
 ## Features
 
 - Open a menu to equip any base game or modded tool
