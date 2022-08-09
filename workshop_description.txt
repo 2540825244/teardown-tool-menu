@@ -1,5 +1,6 @@
 Easily switch tools with the 'q' key.
 With fixed favorite functionality.
+Also the invalid order function is mitigated by sorting with tool id.
 
 Features Include:
 - Open a menu to equip any base game or modded tool
