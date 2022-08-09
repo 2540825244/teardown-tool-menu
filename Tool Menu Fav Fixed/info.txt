@@ -1,4 +1,4 @@
 name = Tool Menu Fav Fixed
-author = mjtlittle
+author = Qty (2540825244) (For the fix only)
 description = Easily switch tools with the 'q' key.
 tags = Tool, Gameplay
