@@ -113,11 +113,10 @@ function load_favorite_tools()
     local tool_ids = split(fav_string, ',')
 
     -- update the favorite status of the tools
-    for i, tool_id in ipairs(tool_ids) do
-        local index = tonumber(get_tool_key(tool_id, 'index'))
-        if tonumber(index) ~= nil then
-            all_tools[index].favorite = true
-        end
+    for i, tool in ipairs(all_tools) do
+        if table_contains(tool_ids, tool.id) then
+			all_tools[i].favorite = true
+		end
     end
 end
 
@@ -215,17 +214,31 @@ function generate_all_tools()
         table.insert(all_tools, tool_data)
     end
 
-    -- sort by index
-    function by_index(a, b)
-        if a.index == nil then
+    -- sort by id
+    function by_id(a, b)
+        if a.id == nil then
             return true
         end
-        if b.index == nil then
+        if b.id == nil then
             return false
         end
+        return a.id < b.id
+    end
+	
+	-- sort by index
+	function by_index(a, b)
+        if a == nil then
+            return true
+        end
+        if b == nil then
+            return false
+        end
+		if a == b then
+			return by_id(a, b)
+		end
         return a.index < b.index
     end
-    table.sort(all_tools, by_index)
+    table.sort(all_tools, by_id)
 end
 
 function generate_tool_instance()
