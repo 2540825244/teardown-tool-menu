@@ -1,4 +1,5 @@
 Easily switch tools with the 'q' key.
+With fixed favorite functionality.
 
 Features Include:
 - Open a menu to equip any base game or modded tool
@@ -6,7 +7,7 @@ Features Include:
 - Add or remove tools from your tool-belt (individually or in bulk)
 
 This project is open source on github:
-https://github.com/Mjtlittle/teardown-tool-menu
+https://github.com/2540825244/teardown-tool-menu
 
 Recent Changes:
 - Sharantan added the part 2 tools to the basegame category
