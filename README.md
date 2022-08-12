@@ -1,7 +1,9 @@
 # Tool Menu for Teardown
 
 A mod for Teardown that lets you easily switch tools
+
 With fixed favorite functionality
+
 Also the invalid order function is mitigated by sorting with tool id
 
 Steam Workshop link:
