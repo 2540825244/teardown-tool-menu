@@ -32,6 +32,8 @@ function init()
 
     recent_menu_height = 100
     scroll_pos = 0
+
+    disable_tools()
     
     if HasKey(activate_key_reg) then
         menu_key = GetString(activate_key_reg)
@@ -414,4 +416,14 @@ function draw_tool_button(tool, width, height)
             UiPop()
         end
     UiPop()
+end
+
+function disable_tools()
+    for i, tool in ipairs(all_tools) do
+        if(table.contains(basegame_tool_ids, tool.id)) then
+            set_tool_enabled(tool, true)
+        else
+            set_tool_enabled(tool, false)
+        end
+    end
 end
