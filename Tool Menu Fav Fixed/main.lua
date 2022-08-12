@@ -33,8 +33,6 @@ function init()
     recent_menu_height = 100
     scroll_pos = 0
 
-    disable_tools()
-    
     if HasKey(activate_key_reg) then
         menu_key = GetString(activate_key_reg)
     end
@@ -155,6 +153,7 @@ function tick(dt)
         if not menu_opened_before then
             generate_all_tools()
             load_favorite_tools()
+            disable_tools()
             menu_opened_before = true
         end
 
