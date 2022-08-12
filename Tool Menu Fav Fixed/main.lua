@@ -419,7 +419,7 @@ end
 
 function disable_tools()
     for i, tool in ipairs(all_tools) do
-        if(table.contains(basegame_tool_ids, tool.id)) then
+        if(table_contains(basegame_tool_ids, tool.id)) then
             set_tool_enabled(tool, true)
         else
             set_tool_enabled(tool, false)
